@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Diwa4</title>
+    <meta name="description" content="Panorama — A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+   
+    <a-scene>
+      <a-sky src="diwali2.jpg" rotation="0 -130 0"></a-sky>
+      <a-entity>
+    <a-animation attribute="position" from="-10 20 -40" to="-10 20 -40" repeat="0"></a-animation>
+     
+     </a-entity>
+
+   <a-torus color="#fd1685" arc="360" radius="7" radius-tubular="0.1"></a-torus>
+
+      
+      <a-box position="1 0.5 1" rotation="0 45 0" width="1" height="1" depth="1"  color="#4CC3D9"></a-box>
+      
+      
+      <a-curvedimage id="diwa13" src="diwa13.jpg" transparent="true" 
+              height="25" radius="40" theta-length="80" rotation="0 100 0" position="0 0 -2">
+            </a-curvedimage>
+            <a-curvedimage id="diwa14" src="diwa14.jpg" transparent="true" 
+              height="25" radius="40" theta-length="80" rotation="0 200 0" position="0 0 -2">
+            </a-curvedimage>
+    </a-scene>
+  </body>
+</html>
